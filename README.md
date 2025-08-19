@@ -16,10 +16,13 @@ Developing a text narrator using Amazon Polly which would be able to read a piec
 
 ## ⚙️ Deployment
 Steps to recreate:
-1. Clone the repo
-2. Deploy IaC (Terraform or CloudFormation)
-3. Upload frontend to S3
-4. Access via CloudFront URL
+1. Explored Amaazon Polly 
+2. Created an IAM role and placed policies 
+  a. AmazonPollyFullAccess
+  b. AmazonS3FullAccess
+  c. AWSLambdaBasicExecutionRole
+4. Creating an S3 Bucket to store text files
+5. Access via CloudFront URL
 
 ## 🔒 Security Considerations
 - IAM least privilege for Lambda and CI/CD
@@ -30,7 +33,7 @@ Steps to recreate:
 ## 📊 Results
 - Fully serverless with automatic scaling
 - Deployment completed in under N minutes via IaC
-- Est. monthly cost: $X.XX (fits in Free Tier if applicable)
+- Est. monthly cost: AWS Free Tier
 
 ## 🧪 Testing
 - Postman collection for API endpoints in `/docs`
