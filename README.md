@@ -3,7 +3,7 @@
 # 🚀 Project Title – Example: Text Narrator Using Amazon Polly
 
 ## 📌 Overview
-Developing a text narrator using Amazon Polly which would be able to read a piece of text and will be uploaded in Amazon S3 bucket. This text will be converted into speach and I can adjust the voice, pitch, and speed parameters. 
+Developing a text narrator using Amazon Polly which would be able to read a piece of text and will be uploaded in Amazon S3 bucket. This text will be converted into speech and I can adjust the voice, pitch, and speed parameters. 
 
 ## 🏗️ Architecture
 ![Architecture Diagram](./diagrams/architecture.png)
